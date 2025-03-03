@@ -1,0 +1,89 @@
+@charset "UTF-8";
+table {
+    text-align: center;
+    page-break-inside: avoid;
+}
+table, th, td {
+    border: 1px solid black;
+}
+td {
+    border: 1px dashed rgb(133, 130, 130);
+    border-collapse: collapse;
+  }
+
+th.xAxis {
+  width: 8em; 
+}
+
+th.yAxis {
+  height: 8ex;
+}
+
+td.c_112 { /* Activity id: 406 (subject) */
+    background-color: rgb(15, 221, 51);
+    color: black;
+}
+
+td.c_113 { /* Activity id: 408 (subject) */
+    background-color: rgb(7, 31, 207);
+    color: white;
+}
+
+td.c_122 { /* Activity id: 440 (subject) */
+    background-color: rgb(131, 27, 216);
+    color: white;
+}
+
+td.c_123 { /* Activity id: 442 (subject) */
+    background-color: rgb(229, 193, 69);
+    color: black;
+}
+
+td.c_124 { /* Activity id: 443 (subject) */
+    background-color: rgb(90, 43, 155);
+    color: white;
+}
+
+td.c_125 { /* Activity id: 445 (subject) */
+    background-color: rgb(12, 234, 252);
+    color: black;
+}
+
+td.c_126 { /* Activity id: 446 (subject) */
+    background-color: rgb(5, 165, 78);
+    color: white;
+}
+
+td.c_127 { /* Activity id: 448 (subject) */
+    background-color: rgb(10, 63, 250);
+    color: white;
+}
+
+td.c_128 { /* Activity id: 450 (subject) */
+    background-color: rgb(133, 39, 74);
+    color: white;
+}
+
+span.notAvailable {
+    color: gray;
+}
+
+td.notAvailable {
+    border-color: silver;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: dotted;
+    border-top-style: dotted;
+}
+
+
+
+tr.line2, div.line2 {
+  font-size: smaller;
+}
+
+tr.line3, div.line3 {
+  font-size: smaller;
+}
+th:hover {background-color: #bbf0f0;}  
+td:hover {background-color: rgb(250, 144, 144);}
